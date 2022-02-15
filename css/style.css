@@ -1,0 +1,28 @@
+header{
+    font-family: Helvetica,sans-serif;
+}
+
+main{
+    font-family: Arial, sans-serif;
+}
+
+header section#header-top{
+    background-color: black;
+    height: 30px;
+}
+
+header section#header-top #text-sony-logo{
+    width: 100px;
+}
+
+main div.my-jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+main div.my-jumbotron img{
+    width: 250px;
+}
