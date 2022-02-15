@@ -6,12 +6,12 @@ main{
     font-family: Arial, sans-serif;
 }
 
-header section#header-top{
+header div#header-top{
     background-color: black;
     height: 30px;
 }
 
-header section#header-top #text-sony-logo{
+header div#header-top #text-sony-logo{
     width: 100px;
 }
 
