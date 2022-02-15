@@ -15,14 +15,48 @@ header section#header-top #text-sony-logo{
     width: 100px;
 }
 
-main div.my-jumbotron{
+main div.jumbotron-top{
     background-image: url(../img/jumbo-bg.png);
+}
+
+main div.jumbotron-top,
+main div.jumbotron-middle{
     width: 100%;
     height: 700px;
     background-size: cover;
     background-position: center;
 }
 
-main div.my-jumbotron img{
+main div.jumbotron-top img{
     width: 250px;
+}
+
+main div#carousel img, 
+main section#nuove-uscite img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+main section #console-ps5{
+    width: 100%;
+}
+
+#item-product div img{
+    width: 70%;
+}
+
+main div.jumbotron-middle{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+main div.jumbotron-middle img{
+    width: 250px;
+}
+
+main section#nuove-uscite{
+    background-color: #1f1f1f;
+}
+
+main section#nuove-uscite img{
+    margin-bottom: 20px;
 }
