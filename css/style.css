@@ -27,7 +27,8 @@ main div.jumbotron-middle{
     background-position: center;
 }
 
-main div.jumbotron-top img{
+main div.jumbotron-top img, 
+main div.jumbotron-middle img{
     width: 250px;
 }
 
@@ -49,10 +50,6 @@ main div.jumbotron-middle{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-main div.jumbotron-middle img{
-    width: 250px;
-}
-
 main section.my-bg-light-black{
     background-color: #1f1f1f;
 }
@@ -65,20 +62,30 @@ main div#esplora img{
     width: 70%;
 }
 
-.my-bg-light-gray{
-    background-color: #bebcbb;
-}
-
-main div#ps-plus img#ps-plus-logo{
+main div#ps-plus img#ps-plus-logo, 
+main div#ps-now img#ps-now-logo{
     width: 50%;
 }
 
-main div#ps-plus img{
-    width: 100%;
+main div#ps-plus img#ps-plus-picture, 
+main div#ps-now img#ps-now-picture{
+    width: 77%;
 }
 
 main div#ps-plus button.my-btn{
     background-color: rgba(255,255,255,0.5);
     border-radius: 25px;
     color: #3368e6;
+}
+
+main div#sconti img{
+    width: 100%;
+}
+
+.my-bg-light-gray{
+    background-color: #bebcbb;
+}
+
+.my-bg-dark-blue{
+    background-color: #161c3b;
 }
