@@ -46,11 +46,11 @@ main div#nuove-uscite img{
     border-radius: 20px;
 }
 
-main section #console-ps5{
+main section div img#console-ps5{
     width: 100%;
 }
 
-#item-product div img{
+main section div#item-product div img{
     width: 70%;
 }
 
@@ -90,8 +90,31 @@ main div#sconti img{
     width: 100%;
 }
 
+main div#social, 
+main div#sconti, 
+main div#esplora{
+    padding: 100px 0;
+}
+
 main div#social img{
     width: 100%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li{
+    line-height: 30px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#sie-logo{
+    width: 150px;
 }
 
 .my-bg-light-gray{
@@ -100,4 +123,8 @@ main div#social img{
 
 .my-bg-dark-blue{
     background-color: #161c3b;
+}
+
+.my-bg-blue{
+    background-color: #00439c;
 }
