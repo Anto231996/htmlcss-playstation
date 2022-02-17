@@ -1,9 +1,17 @@
 header{
     font-family: Helvetica,sans-serif;
+    position: fixed;
+    min-width: 100%;
+    background: white;
+    z-index: 1;
 }
 
 main{
     font-family: Arial, sans-serif;
+}
+
+main > section{
+    padding-top: 106px;
 }
 
 header div#header-top{
@@ -13,6 +21,14 @@ header div#header-top{
 
 header div#header-top #text-sony-logo{
     width: 100px;
+}
+
+header nav#header-nav ul li a{
+    color: rgb(40, 40, 40) ;
+}
+
+header nav#header-nav ul li a:hover{
+    color: #3368e6;
 }
 
 main div#jumbotron-top{
@@ -31,12 +47,43 @@ main div#jumbotron-middle img{
     width: 220px;
 }
 
+main div#carousel img.my-active-border{
+    padding: 2px;
+    border: 3px #3368e6 solid;
+}
+
+main div#carousel img:hover{
+    position: relative;
+    bottom: 7px;
+    box-shadow: 0 7px 7px rgb(150, 150, 150);
+}
+
+main div#item-product .my-active-border{
+    border: 3px #3368e6 solid;
+    border-radius: 25px;
+}
+
+main div#item-product .my-opacity{
+    filter: opacity(50%);
+}
+
 main div.my-jumbotron-top-text{
     padding-top: 300px;
 }
 
 main div.my-jumbotron-middle-text{
     padding-top: 50px;
+}
+
+main div#new-releases img:hover, 
+main div#social img:hover, 
+main div#discount img:hover{
+    transform: scale(1.02);
+} 
+
+main div#social img:hover, 
+main div#discount img:hover{
+    box-shadow: 0 0 15px rgb(88, 88, 88);
 }
 
 main div#carousel img, 
@@ -107,24 +154,16 @@ footer ul li a:hover{
     color: white;
 }
 
-main div#new-releases img:hover, 
-main div#social img:hover, 
-main div#discount img:hover{
-    transform: scale(1.02);
-} 
-
-main div#social img:hover, 
-main div#discount img:hover{
-    transform: scale(1.02); 
-    box-shadow: 0 0 15px rgb(88, 88, 88);
-}
-
-#sie-logo{
+footer #sie-logo{
     width: 150px;
 }
 
-#playstation-logo-footer{
+footer #playstation-logo-footer{
     width: 100px;
+}
+
+.btn:hover{
+    filter: opacity(75%);
 }
 
 .my-bg-black{
