@@ -40,8 +40,11 @@ main div.my-jumbotron-middle-text{
 }
 
 main div#carousel img, 
-main div#new-releases img{
+main div#new-releases img, 
+main div#social img, 
+main div#discount img{
     border-radius: 20px;
+    transition: all 0.2s ease-in-out
 }
 
 main div#jumbotron-top, 
@@ -61,10 +64,6 @@ main div#explore img{
 
 main div#jumbotron-middle{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-}
-
-main section.my-bg-light-black{
-    background-color: #1f1f1f;
 }
 
 main div#new-releases img{
@@ -95,19 +94,41 @@ main div#explore{
 
 footer ul {
     list-style: none;
+    padding-left: 0;
 }
 
 footer ul li{
     line-height: 30px;
 }
 
-footer ul li a{
+footer ul li a, 
+footer ul li a:hover{
     text-decoration: none;
     color: white;
 }
 
+main div#new-releases img:hover, 
+main div#social img:hover, 
+main div#discount img:hover{
+    transform: scale(1.02);
+} 
+
+main div#social img:hover, 
+main div#discount img:hover{
+    transform: scale(1.02); 
+    box-shadow: 0 0 15px rgb(88, 88, 88);
+}
+
 #sie-logo{
     width: 150px;
+}
+
+#playstation-logo-footer{
+    width: 100px;
+}
+
+.my-bg-black{
+    background-color: #000000;
 }
 
 .my-bg-light-gray{
