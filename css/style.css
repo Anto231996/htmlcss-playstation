@@ -1,22 +1,18 @@
 header{
-    font-family: Helvetica,sans-serif;
     position: fixed;
-    min-width: 100%;
-    background: white;
     z-index: 1;
+    min-width: 100%;
+    font-family: Helvetica,sans-serif;
+    background: white;
 }
 
 main{
     font-family: Arial, sans-serif;
 }
 
-main > section{
-    padding-top: 106px;
-}
-
 header div#header-top{
-    background-color: black;
     height: 30px;
+    background-color: black;
 }
 
 header div#header-top #text-sony-logo{
@@ -24,11 +20,15 @@ header div#header-top #text-sony-logo{
 }
 
 header nav#header-nav ul li a{
-    color: rgb(40, 40, 40) ;
+    color: rgb(40, 40, 40);
 }
 
 header nav#header-nav ul li a:hover{
     color: #3368e6;
+}
+
+main > section{
+    padding-top: 106px;
 }
 
 main div#jumbotron-top{
@@ -76,29 +76,29 @@ main div.my-jumbotron-middle-text{
 }
 
 main div#new-releases img:hover, 
-main div#social img:hover, 
-main div#discount img:hover{
+main div#discount img:hover, 
+main div#social img:hover{
     transform: scale(1.02);
-} 
+}
 
-main div#social img:hover, 
-main div#discount img:hover{
+main div#discount img:hover, 
+main div#social img:hover{
     box-shadow: 0 0 15px rgb(88, 88, 88);
 }
 
 main div#carousel img, 
 main div#new-releases img, 
-main div#social img, 
-main div#discount img{
+main div#discount img, 
+main div#social img{
     border-radius: 20px;
-    transition: all 0.2s ease-in-out
+    transition: all .2s ease-in-out
 }
 
 main div#jumbotron-top, 
-main div#jumbotron-middle, 
 main div#carousel img, 
-main div#new-releases img, 
 main img#console-ps5, 
+main div#jumbotron-middle, 
+main div#new-releases img, 
 main div#discount img, 
 main div#social img{
     width: 100%;
@@ -129,19 +129,19 @@ main div#ps-now img#ps-now-picture{
 
 main div#ps-plus button.my-btn{
     background-color: rgba(255,255,255,0.5);
-    border-radius: 25px;
     color: #3368e6;
+    border-radius: 25px;
 }
 
-main div#social, 
+main div#explore, 
 main div#discount, 
-main div#explore{
+main div#social{
     padding: 100px 0;
 }
 
-footer ul {
-    list-style: none;
+footer ul{
     padding-left: 0;
+    list-style: none;
 }
 
 footer ul li{
@@ -154,11 +154,11 @@ footer ul li a:hover{
     color: white;
 }
 
-footer #sie-logo{
+footer img#sie-logo{
     width: 150px;
 }
 
-footer #playstation-logo-footer{
+footer img#playstation-logo-footer{
     width: 100px;
 }
 
